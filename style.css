@@ -1,0 +1,18 @@
+body {
+overflow-x: hidden; 
+/*PERMET D'EVITER QUE LE MOUSEMOVE CREE UN SCROLL LATERAL*/
+}
+
+.box{
+    background: black;
+} 
+.mousemove{
+    height: 50px;
+    width: 50px;
+    border: 3px solid lime;
+    position: absolute ;    
+    border-radius: 50px;
+    transform: translate(-50%,-50%);
+    transition : 0.100ms ease;
+    z-index: -1;
+}
